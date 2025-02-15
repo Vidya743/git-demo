@@ -3,7 +3,7 @@ package com.example.git.demo;
 public class user {
       int id;
       String username;
-      String password;
+      int password;
       String email;
 
     public int getId() {
@@ -22,11 +22,11 @@ public class user {
         this.username = username;
     }
 
-    public String getPassword() {
+    public int getPassword() {
         return password;
     }
 
-    public void setPassword(String password) {
+    public void setPassword(int password) {
         this.password = password;
     }
 
